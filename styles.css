@@ -7,6 +7,9 @@
 }
 
 .screen {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     background-color: grey;
     border: solid 0px red;
     width: 500px;
