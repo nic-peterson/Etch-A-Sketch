@@ -12,8 +12,13 @@
     flex-wrap: wrap;
     background-color: grey;
     border: solid 0px red;
-    width: 500px;
-    height: 500px;
+    width: 480px;
+    height: 480px;
+}
+
+#clear {
+    padding: 8px;
+    margin-bottom: 16px;
 }
 
 .grid {
@@ -22,6 +27,8 @@
     height: 125px;
     */
     box-sizing: border-box;
+    /*
     background-color: blue;
     border: solid 1px red;
+    */
 }
