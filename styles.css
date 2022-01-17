@@ -17,8 +17,10 @@
 }
 
 .grid {
+    /*
     width: 125px;
     height: 125px;
+    */
     box-sizing: border-box;
     background-color: blue;
     border: solid 1px red;
