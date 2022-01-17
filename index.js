@@ -24,23 +24,13 @@ const changeGridCount = () => {
   const userSide = prompt(
     "Choose x for the number of x by x grids you would like!"
   );
-  console.log(
-    `typeof userSide: ${typeof userSide}\nuserSide: ${userSide}\nparseInt(userSide): ${parseInt(
-      userSide
-    )}\ntypeof parseInt(userSide): ${typeof parseInt(userSide)}`
-  );
   if (parseInt(userSide) < 0 || parseInt(userSide) > 100) {
     side = 16;
   } else {
     side = userSide;
   }
-  console.log(`side: ${side}`);
 
   setScreen(side);
-};
-
-const chooseColor = () => {
-  return;
 };
 
 setScreen(16);
